@@ -1,0 +1,11 @@
+1. Single Responsibility Principle: 单一职责原则
+There should never be more than one reason for a class to change.
+
+2. Liskov Substitution Principle: 里氏替换原则
+1) If for each object o1 of type S there is an object o2 of Type T such that for all programs P defined in terms of T,
+the behavior Of P is unchanged when o1 is substituted for o2 then S is a subtype of T.
+2) Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it.
+
+3. Dependence Inversion Principle: 依赖倒置原则
+High level modules should not depend upon low level modules. Both should depend abstractions.
+Abstractions should not depend upon details. Details should depend upon abstractions.
