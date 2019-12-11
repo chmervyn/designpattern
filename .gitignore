@@ -1,5 +1,5 @@
 #build files
 /out/*
 #ignore intellij files
-/.idea/*
+#/.idea/*
 /.idea_backup
