@@ -1,0 +1,4 @@
+Iterator Pattern(迭代器模式): 它提供一种方法访问一个容器对象中的各个元素，而又不需暴露该对象的内部细节。
+
+注意事项：
+    不要自己写iterator，java API已经很好的实现了iterator，直接使用现有的API就可以。
