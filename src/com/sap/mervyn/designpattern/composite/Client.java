@@ -11,10 +11,10 @@ public class Client {
     }
 
     private static String getTreeInfo(Branch root) {
-        List<ICorp> subordinateList = root.getSubordinate();
+        List<Corp> subordinateList = root.getSubordinate();
         StringBuilder info = new StringBuilder();
 
-        for (ICorp s : subordinateList) {
+        for (Corp s : subordinateList) {
             info.append(s.getInfo()).append("\n");
             if (s instanceof Branch) {
               info.append(getTreeInfo((Branch) s));
