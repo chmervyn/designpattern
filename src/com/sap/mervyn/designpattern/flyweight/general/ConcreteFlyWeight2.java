@@ -1,8 +1,8 @@
 package com.sap.mervyn.designpattern.flyweight.general;
 
-public class ConcreteFlyWeight1 extends FlyWeight {
+public class ConcreteFlyWeight2 extends FlyWeight {
 
-    public ConcreteFlyWeight1(String extrinsic) {
+    public ConcreteFlyWeight2(String extrinsic) {
         super(extrinsic);
     }
 
